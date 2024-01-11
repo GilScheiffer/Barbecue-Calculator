@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #272626;
+}
+h1{
+  font-size: 250%;
+  font-family: 'Kaushan Script', cursive;
+}
+#container{
+  display: flex;
+  justify-content: flex-end;
+}
+#bg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-image: url(carneBlur.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 55%;
+}
+#content{
+  background-image: linear-gradient(45deg,#400e07,#181818);
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: #fbfbfb;
+  box-sizing: border-box;
+}
+.inpt{
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  appearance: none;
+  text-align: center;
+}
+.inpt::-webkit-outer-spin-button,
+.inpt::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.inpt:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+#duracao{
+  margin-bottom: 15px;
+}
+button{
+  width: 32%;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  text-align: center;
+}
+#result{
+  color: white;
+}
+#calculadora{
+  text-align: center;
+  position: relative;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#header{
+  position: fixed;
+  top: 20%;
+}
+#result{
+  position: absolute;
+  top: 100%;  
+  left: 0;
+  width: 100%;
+  margin-top: 10%;
+}
+#botoes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  width: 100%;
+}
