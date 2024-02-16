@@ -15,19 +15,9 @@ A simple web application built with JavaScript, HTML, and CSS to help with barbe
 2. Use the duration slider to estimate the duration of the event.
 3. The calculator will instantly provide recommendations for the amount of meat and beverages needed for a successful barbecue.
 
-## Site
+## Link to Hosted Site
 
-
-
-```bash
-https://gilscheiffer.github.io/Barbecue-Calculator/
-```
-
-Open the index.html file in your web browser.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
+You can access the hosted site for this project [here](https://gilscheiffer.github.io/Barbecue-Calculator/).
 
 ## License
 
